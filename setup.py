@@ -75,7 +75,8 @@ setuptools.setup(
     cmdclass={'install': InstallWrapper},
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License-File: LICENSE.txt",
+        "License-Expression: MIT",
+        "Operating System :: OS Independent",
     ],
     python_requires='>=3.12',
 )
