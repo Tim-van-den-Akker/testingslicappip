@@ -89,5 +89,7 @@ setuptools.setup(
     "svgelements>=1.9.6",
     "cairosvg>=2.7.1",
     "IPython>=8.19",
+    'windows_tools>=2.4; sys_platform == "win32"',
+    'pywin32>306; sys_platform == "win32"',
 ],
 )
