@@ -63,14 +63,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="SLiCAP_python",
+    name="testingslicappip",
     version=INSTALLVERSION,
     author="Anton Montagne",
     author_email="anton@montagne.nl",
     description="Symbolic Linear Circuit Analysis Program",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/SLiCAP/SLiCAP_python/",
+    url="https://github.com/Tim-van-den-Akker/testingslicappip/",
     packages=setuptools.find_packages(),
     cmdclass={'install': InstallWrapper},
     classifiers=[
