@@ -78,4 +78,16 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.12',
+    install_requires=[
+    "docutils>=0.18",
+    "numpy>=1.26",
+    "sympy>=1.12",
+    "scipy>=1.12",
+    "ply>=3.11",
+    "matplotlib>=3.8.0",
+    "sphinx-rtd-theme>=1.2.0",
+    "svgelements>=1.9.6",
+    "cairosvg>=2.7.1",
+    "IPython>=8.19",
+],
 )
